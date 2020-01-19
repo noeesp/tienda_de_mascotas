@@ -1,0 +1,99 @@
+*{
+    list-style: none;
+    text-decoration: none; 
+    box-sizing: border-box;  
+    padding: 0;
+}
+
+/* Header + Nav */
+
+h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    font-size: 35px;
+}
+
+
+#nav-principal a {
+    position: relative;
+    left: 60%;
+    float: left;
+    margin: 15px;
+}
+
+
+#logo {
+    width: 5%;
+    float: left;  
+}
+
+#slider{
+    width: 100%;
+    margin-bottom: 20px;  
+}
+
+
+/* Aplica globalmente a todo el contenido */
+#contenedorGeneral{
+    margin: 20px;
+}
+
+/* Las 3 columnas centrales */
+    /*Contenedor general de las columnas */
+.contenedorColumna{
+    width: 100%;
+    margin: auto;
+    
+}
+    /*Contenedor de cada columna individualmente */
+.columnasCentrales{
+    width: 33.333%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+   
+}
+
+.columnasCentrales .imgMascotas{
+    width: 50%;
+}
+
+
+/* Contenedor de article de servicios y beneficios */
+.servicios-beneficios{
+    float:left;
+    height: 160px;
+    width: 45% ;
+    margin: 30px;
+    text-align: center;  
+}
+
+
+#acercaDe{
+    text-align: center;
+    margin:auto;
+    width: 100%;
+
+}
+
+#contacto, footer{
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+
+
+footer p{
+    float:left;
+    width: 100%;
+}
+
+.nav-footer{
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
